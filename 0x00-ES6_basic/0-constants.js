@@ -1,6 +1,7 @@
+/* eslint linebreak-style: ["error", "windows"] */
 export function taskFirst() {
-  const task = 'I prefer const when I can.';
-  return task;
+  const task = 'I prefer const when I can.'; // \n
+  return task; // \n
 }
 
 export function getLast() {
